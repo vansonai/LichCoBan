@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+}
+th {
+    padding: 20px;
+}
+.table1 th{
+    width: 50px;
+}
+.table1 tr th {
+    border: 1px solid white;
+}
+.table2 th {
+    border: 1px solid #d9d9d9;
+    width: 50px;
+    font-size: 25px;
+}
+sub {
+    font-size: 12px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.table1_row th:nth-child(1) {
+    color: white;
+    background-color: red;
+}
+.table1_row th:nth-child(n+2){
+    color: white;
+    background-color: orange;
+}
+.table1_row th:nth-child(7){
+    color: white;
+    background-color: blue;
+}
+tr th:nth-child(1) {
+    color: red;
+}
+tr th:nth-child(7) {
+    color: blue;
+}
+.container {
+    margin: auto;
+}
+table {
+    padding: 20px;
+}
